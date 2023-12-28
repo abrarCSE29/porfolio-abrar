@@ -1,0 +1,140 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: aliceblue;
+    height: 50px;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 5px 0 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: #361B1B;
+    color: white;
+    align-items: center;
+    width: 100%;
+}
+
+.abrarImg {
+    position: relative;
+    width: 393px;
+    height: max-content;
+    padding-right: 180px;
+}
+
+.introDescription {
+    margin: 10px 10px 10px 120px;
+    font-family: 'Suez One', serif;
+    font-size: 3.5rem;
+}
+
+.anim {
+    letter-spacing: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 580px;
+    animation: type 1s steps(60, end);
+}
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+
+.txt-style-1 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2px;
+}
+
+p {
+    margin: 0;
+}
+
+/* .photo-ease
+{
+    position: relative;
+    animation: eas 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes eas {
+    from {right: -25%;}
+    to {right: 0px;}
+} */
+
+.dis{
+    display: flex;
+    justify-content: center;
+}
+
+.skills
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: #361B1B;
+    background-color: rgb(204, 193, 193);
+    padding: 2%;
+    margin: auto;
+    font-size: 1.8rem;
+
+}
+
+.skillName
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding : 1% ;
+    align-content: center;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30%;
+    height: 15%;
+    font-size: medium;
+    background-color: beige;
+}
+.skillImg
+{
+    width: 130px;
+    height: 100px;
+}
+
+.skillDesc
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+}
+
+.box h3
+{
+    text-align: center;
+    margin: 0;
+    height: 80px;
+}
