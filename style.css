@@ -5,11 +5,17 @@
     padding: 5px;
     background-color: aliceblue;
     height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 2;
 }
 
 .header a {
     color: black;
     text-decoration: none;
+    
 }
 
 body {
@@ -33,9 +39,10 @@ nav a {
 
 .abrarImg {
     position: relative;
-    width: 393px;
-    height: max-content;
+    width: 450px;
+    height: 450px;
     padding-right: 180px;
+    z-index: 1;
 }
 
 .introDescription {
@@ -44,16 +51,6 @@ nav a {
     font-size: 3.5rem;
 }
 
-.anim {
-    letter-spacing: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 580px;
-    animation: type 1s steps(60, end);
-}
-@keyframes type{ 
-    from { width: 0; } 
-  } 
 
 .txt-style-1 {
     font-family: 'Inria Sans', sans-serif;
@@ -65,22 +62,11 @@ p {
     margin: 0;
 }
 
-/* .photo-ease
-{
-    position: relative;
-    animation: eas 1s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
-}
-
-@keyframes eas {
-    from {right: -25%;}
-    to {right: 0px;}
-} */
 
 .dis{
     display: flex;
     justify-content: center;
+    margin-top: 2.7%;
 }
 
 .skills
@@ -88,9 +74,8 @@ p {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    box-shadow: #361B1B;
     background-color: rgb(204, 193, 193);
-    padding: 2%;
+    padding: 0% 2% 0 2%;
     margin: auto;
     font-size: 1.8rem;
 
@@ -112,12 +97,16 @@ p {
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: 1px solid black;
+    margin: 1%;
+    /* border: 1px solid black; */
     width: 30%;
     height: 15%;
     font-size: medium;
-    background-color: beige;
+    background-color: rgb(247, 247, 247);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgb(136, 129, 129);
 }
+
 .skillImg
 {
     width: 130px;
@@ -130,6 +119,7 @@ p {
     flex-direction: column;
     padding: 2%;
     text-align: center;
+    font-size: smaller;
 }
 
 .box h3
@@ -137,4 +127,29 @@ p {
     text-align: center;
     margin: 0;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalInfo img
+{
+    width: 50px;
+    height: 50px;
+}
+.personalInfo
+{
+    padding: 2%;
+}
+
+.personalInfo1
+{
+    padding: 2%;
+    height: 20%;
+}
+
+.personalInfo1 img
+{
+    width: 50px;
+    height: 50px;
 }
