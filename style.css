@@ -11,6 +11,11 @@
     width: 99.8%;
     z-index: 2;
 }
+html{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
 a{
     text-decoration: none;
 }
@@ -250,10 +255,7 @@ button a
             text-decoration: none;
             
         }
-        .header
-        {
-            max-width: 458px;
-        }
+
         .dis
         {
             min-width: 470px;
