@@ -250,5 +250,17 @@ button a
             text-decoration: none;
             
         }
+        .header
+        {
+            max-width: 458px;
+        }
+        .dis
+        {
+            min-width: 470px;
+        }
+        .skills
+        {
+            min-width: 463px;
+        }
         
     }
