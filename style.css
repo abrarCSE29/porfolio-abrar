@@ -316,5 +316,8 @@ button a
         .form-box{
             min-width: 463px;
         }
+        .header{
+            flex-direction: column;
+        }
         
     }
